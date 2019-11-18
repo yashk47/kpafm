@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import NavBar from './components/NavBar';
 import HeroSliderOne from './components/HeroSliderOne';
 import ServiceGridSlider from './components/ServiceGridSlider';
-//import Funfact from './components/Funfact';
+import Funfact from './components/Funfact';
 //import VideoCta from './components/VideoCta';
 //import ProjectSlider from './components/ProjectSlider';
 import TeamJob from './components/TeamJob';
@@ -13,9 +13,12 @@ import Footer from './components/Footer';
 import MobileMenu from './components/MobileMenu';
 
 class HomeOne extends Component{
-    render(){
+
+   
+    render() {
         
         return(
+            <React.Fragment>
             <div>
                 
                 {/* Navigation bar */}
@@ -27,8 +30,8 @@ class HomeOne extends Component{
                 {/* Service grid slider */}
                 <ServiceGridSlider/>
                 
-                {/* Fun fact 
-                <Funfact/>*/}
+                {/* Fun fact */} 
+                <Funfact/>
                 
                 {/* Video CTA 
                 <VideoCta/> */}
@@ -54,7 +57,7 @@ class HomeOne extends Component{
                 {/* Mobile Menu */}
                 <MobileMenu/>
 
-            </div>
+            </div></React.Fragment>
         )
     }
 }

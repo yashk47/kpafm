@@ -17,7 +17,7 @@ class NavBar extends Component{
                                 <ul>
                                     <li><a href="//facebook.com"><i className="zmdi zmdi-facebook" /></a></li>
                                     <li><a href="//twitter.com"><i className="zmdi zmdi-twitter" /></a></li>
-                                    <li><a href="//vimeo.com"><i className="zmdi zmdi-vimeo" /></a></li>
+                                    {/* <li><a href="//vimeo.com"><i className="zmdi zmdi-vimeo" /></a></li> */}
                                     <li><a href="//linkedin.com"><i className="zmdi zmdi-linkedin-box" /></a></li>
                                     <li><a href="//skype.com"><i className="zmdi zmdi-skype" /></a></li>
                                 </ul>
@@ -54,7 +54,7 @@ class NavBar extends Component{
                                         </div>
                                         <div className="header-info-single-item__content">
                                         <h6 className="header-info-single-item__title">Phone</h6>
-                                        <p className="header-info-single-item__subtitle">98 9875 5968 54</p>
+                                        <p className="header-info-single-item__subtitle">+91 9829779626</p>
                                         </div>
                                     </div>
                                     <div className="header-info-single-item">
@@ -90,16 +90,20 @@ class NavBar extends Component{
                                             <li>
                                                 <a href={`${process.env.PUBLIC_URL}/`}>HOME</a>
                                             </li>
-                                            <li><a href={`${process.env.PUBLIC_URL}/about-us`}>ABOUT</a></li>
+                                            {/* <li><a href={`${process.env.PUBLIC_URL}/about-us`}>ABOUT</a></li> */}
                                             <li className="has-children has-children--multilevel-submenu">
                                                 <a href={`${process.env.PUBLIC_URL}/services`}>SERVICE</a>
                                                 <ul className="submenu">
-                                                <li><a href={`${process.env.PUBLIC_URL}/services`}>Service Page</a></li>
-                                                <li><a href={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Service Details Left Sidebar</a></li>
-                                                <li><a href={`${process.env.PUBLIC_URL}/service-details-right-sidebar`}>Service Details Right Sidebar</a></li>
+                                                <li><a href={`${process.env.PUBLIC_URL}/services`}>Fetomaternal Medicine</a></li>
+                                                <li><a href={`${process.env.PUBLIC_URL}/services`}>Infertility</a></li>
+                                                <li><a href={`${process.env.PUBLIC_URL}/services`}>Endoscopic Surgery</a></li>
+                                                <li><a href={`${process.env.PUBLIC_URL}/services`}>High Risk Pregnancy</a></li>
+                                                <li><a href={`${process.env.PUBLIC_URL}/services`}>Obstetrics and Gynaecology</a></li>
+                                                <li><a href={`${process.env.PUBLIC_URL}/services`}>Neonatology</a></li>
+                                                <li><a href={`${process.env.PUBLIC_URL}/services`}>Genetics</a></li>
                                                 </ul>
                                             </li>
-                                            <li className="has-children has-children--multilevel-submenu">
+                                            {/* <li className="has-children has-children--multilevel-submenu">
                                                 <a href={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>BLOG</a>
                                                 <ul className="submenu">
                                                 <li><a href={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>Blog Left Sidebar</a></li>
@@ -107,7 +111,7 @@ class NavBar extends Component{
                                                 <li><a href={`${process.env.PUBLIC_URL}/blog-details-left-sidebar`}>Blog Details Left Sidebar</a></li>
                                                 <li><a href={`${process.env.PUBLIC_URL}/blog-details-right-sidebar`}>Blog Details Right Sidebar</a></li>
                                                 </ul>
-                                            </li>
+                                            </li> */}
                                             <li><a href={`${process.env.PUBLIC_URL}/contact-us`}>CONTACT</a> </li>
                                             </ul>
                                         </nav>

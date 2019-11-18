@@ -34,13 +34,13 @@ class ServiceGridSlider extends Component{
 
         }
         let data = [
-            {img: 'service1.jpg', iconName: 'flaticon-002-welding', serviceTitle: 'Fetomaternal Medicine', serviceExcerpt: 'Maternal-fetal medicine specialist is the specialist within the field of obstetrics...', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service2.jpg', iconName: 'flaticon-fertilization', serviceTitle: 'Infertility', serviceExcerpt: 'Infertility is not a disease but a condition where in a particular couple is not able to conceive...', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service3.jpg', iconName: 'flaticon-pregnant-1', serviceTitle: 'Endoscopic Surgery', serviceExcerpt: 'Laparoscopy or endoscopy procedure means looking inside and typically ...', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'High Risk Pregnancy', serviceExcerpt: 'High risk pregnancy – Pregnancy is one of the most exciting and happy phase of women’s life...', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Obstetrics and Gynaecology', serviceExcerpt: 'The common gynecological problems we cater to include adolescent gynaec problems...', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Neonatology', serviceExcerpt: 'A neonatal intensive care unit (NICU) is a specialised unit for care of ill or premature...', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Genetics', serviceExcerpt: 'Cytogenetics is a branch of genetics. Every individual has 46 chromosomes with XX sex...', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service1.jpg', iconName: '1.png', serviceTitle: 'Fetomaternal Medicine', serviceExcerpt: 'Maternal-fetal medicine specialist is the specialist within the field of obstetrics...', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service2.jpg', iconName: '2.png', serviceTitle: 'Infertility', serviceExcerpt: 'Infertility is not a disease but a condition where in a particular couple is not able to conceive...', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service3.jpg', iconName: '3.png', serviceTitle: 'Endoscopic Surgery', serviceExcerpt: 'Laparoscopy or endoscopy procedure means looking inside and typically ...', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service4.jpg', iconName: '4.png', serviceTitle: 'High Risk Pregnancy', serviceExcerpt: 'High risk pregnancy – Pregnancy is one of the most exciting and happy phase of women’s life...', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service5.jpg', iconName: '5.png', serviceTitle: 'Obstetrics and Gynaecology', serviceExcerpt: 'The common gynecological problems we cater to include adolescent gynaec problems...', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service6.jpg', iconName: '6.png', serviceTitle: 'Neonatology', serviceExcerpt: 'A neonatal intensive care unit (NICU) is a specialised unit for care of ill or premature...', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service7.jpg', iconName: '7.png', serviceTitle: 'Genetics', serviceExcerpt: 'Cytogenetics is a branch of genetics. Every individual has 46 chromosomes with XX sex...', serviceUrl: 'service-details-left-sidebar'},
         ];
 
         let DataList = data.map((val, i)=>{
@@ -54,7 +54,7 @@ class ServiceGridSlider extends Component{
                         </a>
                         </div>
                         <div className="icon">
-                        <i className={val.iconName} />
+                        <img src={`assets/img/service/${val.iconName}`} className="icon" alt="" />
                         </div>
                     </div>
                     <div className="service-grid-item__content">

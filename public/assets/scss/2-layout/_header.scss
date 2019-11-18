@@ -13,9 +13,9 @@
             top: 0;
             left: 0;
             width: 100%;
-            animation: .95s ease-in-out 0s normal none 1 running fadeInDown;
+            animation: 1s ease-in-out 0s normal none 1 running fadeInDown;
             z-index: 999;
-            transition: $transition--cubic;
+            transition: $transition--cubic ;
             box-shadow: 0 8px 20px 0 rgba(0,0,0,.1);
     
             .header-top-bar{

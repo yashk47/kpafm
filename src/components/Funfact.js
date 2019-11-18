@@ -19,7 +19,7 @@ class Funfact extends Component{
     render(){
 
         let data = [
-            {img: 'funfact-project.png', countNum : 598, countTitle: 'Projects' },
+            {img: 'funfact-project.png', countNum : 598, countTitle: 'Smiles' },
             {img: 'funfact-clients.png', countNum : 128, countTitle: 'Clients' },
             {img: 'funfact-success.png', countNum : 114, countTitle: 'Success' },
             {img: 'funfact-award.png', countNum : 109, countTitle: 'Awards' }

@@ -1,78 +1,80 @@
 import React, { Component } from 'react';
 
 class TeamJob extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+        }
+    }
+
     render() {
-            return (
-                <div class="price123">
-                
-            <div class="card01">
-                <div class="card-image01" style={{background: 'url(assets/img/team/1481216010993.jfif)'}}></div>
-                <div class="card-text01">
-                    <span class="date">4 days ago</span>
-                    <h2>Post One</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+        return (
+            <div className="wrapper">
+            <div className="pricing-table gprice-single card01">
+              <div className="head">
+                <h4 className="title">Basic</h4> 
+              </div>
+              <div className="content">
+                <div className="price">
+                  <h1>$19</h1>
                 </div>
-                <div class="card-stats01">
-                    <div class="stat">
-                        <div class="value">4<sup>m</sup></div>
-                        <div class="type">read</div>
-                    </div>
-                    <div class="stat border">
-                        <div class="value">5123</div>
-                        <div class="type">views</div>
-                    </div>
-                    <div class="stat">
-                        <div class="value">32</div>
-                        <div class="type">comments</div>
-                    </div>
+                <ul>
+                  <li>sdsds</li>
+                  <li>sdfgsdg</li>
+                  <li>asdfds</li>
+                  <li>sdfdsfsdg</li>
+                  <li> <del>adgagfsdgs</del> </li>
+                  <li> <del>gsfdgsdfgsfd</del></li>
+                </ul>
+                <div className="sign-up">
+                  <a href="#" className="btn bordered radius">Select</a>
                 </div>
+              </div>
             </div>
-             <div class="card01">
-             <div class="card-image01"></div>
-             <div class="card-text01">
-                 <span class="date">4 days ago</span>
-                 <h2>Post One</h2>
-                 <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
-             </div>
-             <div class="card-stats01">
-                 <div class="stat">
-                     <div class="value">4<sup>m</sup></div>
-                     <div class="type">read</div>
-                 </div>
-                 <div class="stat border">
-                     <div class="value">5123</div>
-                     <div class="type">views</div>
-                 </div>
-                 <div class="stat">
-                     <div class="value">32</div>
-                     <div class="type">comments</div>
-                 </div>
-             </div>
-         </div>
-          <div class="card01">
-          <div class="card-image01"></div>
-          <div class="card-text01">
-              <span class="date">4 days ago</span>
-              <h2>Post One</h2>
-              <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+            <div className="pricing-table gprice-single card01">
+              <div className="head">
+                <h4 className="title">Standard</h4>
+              </div>
+              <div className="content">
+                <div className="price">
+                  <h1>$29</h1>
+                </div>
+                <ul>
+                  <li>sadasd</li>
+                  <li>dfsdf sdf sdfs df</li>
+                  <li>asdas dsadasdas</li>
+                  <li>asdasd sadsads sad</li>
+                  <li>asdsadas sadsa dasd</li>
+                  <li><del>asdasd asd</del></li>
+                </ul>
+                <div className="sign-up">
+                  <a href="#" className="btn bordered radius">Select</a>
+                </div>
+              </div>
+            </div>
+            <div className="pricing-table gprice-single card01">
+              <div className="head">
+                <h4 className="title">Premium</h4>
+              </div>
+              <div className="content">
+                <div className="price">
+                  <h1>$39</h1>
+                </div>
+                <ul>
+                  <li>asda sds ad</li>
+                  <li>asda sd asd a</li>
+                  <li>sad asd asd a</li>
+                  <li>asd asdas das</li>
+                  <li>asd asdasd asd</li>
+                  <li>a sdas dasdsdsdfs sd</li>
+                </ul>
+                <div className="sign-up">
+                  <a href="#" className="btn bordered radius">Select</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="card-stats01">
-              <div class="stat">
-                  <div class="value">4<sup>m</sup></div>
-                  <div class="type">read</div>
-              </div>
-              <div class="stat border">
-                  <div class="value">5123</div>
-                  <div class="type">views</div>
-              </div>
-              <div class="stat">
-                  <div class="value">32</div>
-                  <div class="type">comments</div>
-              </div>
-          </div>
-      </div>
-      </div>
-        )
+        );
     }
 }
 

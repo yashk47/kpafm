@@ -7,7 +7,7 @@ class HeroSliderOne extends Component{
         const params = {
             slidesPerView : 1,
             loop: true,
-            speed: 1000,
+            speed: 2000,
             watchSlidesVisibility: true,
             effect: 'fade',
             navigation: {
@@ -27,7 +27,8 @@ class HeroSliderOne extends Component{
 
         let data = [
             {bgImg: '1.jfif', sliderTitle: 'Where The Waiting Ends & Families Begin', sliderSubtitle: 'Your Path To PARENTHOOD Starts Here.', btnLink: 'contact-us'},
-            {bgImg: '2.jfif', sliderTitle: 'Where The Waiting Ends & Families Begin', sliderSubtitle: 'Your Path To PARENTHOOD Starts Here.', btnLink: 'contact-us'}
+            {bgImg: '2.jfif', sliderTitle: 'Where The Waiting Ends & Families Begin', sliderSubtitle: 'Your Path To PARENTHOOD Starts Here.', btnLink: 'contact-us'},
+            {bgImg: '3.jfif', sliderTitle: 'Where The Waiting Ends & Families Begin', sliderSubtitle: 'Your Path To PARENTHOOD Starts Here.', btnLink: 'contact-us'}
         ];
 
         let DataList = data.map((val, i)=>{
@@ -40,10 +41,11 @@ class HeroSliderOne extends Component{
                             <div className="row">
                                 <div className="col-lg-12">
                                 <div className="hero-slider__content">
-                                <a className="hero-slider__btn" href={`${process.env.PUBLIC_URL}/${val.btnLink}`}>Make An Appointment Today</a>
-                                    <h2 className="hero-slider__title">{val.sliderTitle}</h2>
-                                    <p className="hero-slider__text">{val.sliderSubtitle}</p>
-                                    
+                                    <div flex>
+                                    <h2 className="hero-slider__title">{val.sliderTitle}</h2></div>    
+                                    <p className="hero-slider__text">{val.sliderSubtitle}</p> 
+                                    <div flex ><a className="hero-slider__btn" href={`${process.env.PUBLIC_URL}/${val.btnLink}`}>Make An Appointment Today</a></div>
+                                                                        
                                 </div>
                                 </div>
                             </div>
